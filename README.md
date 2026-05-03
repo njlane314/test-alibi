@@ -45,7 +45,7 @@ jobs:
           node-version: 20
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - uses: njlane314/test-alibi@v1
+      - uses: eideticresearch/test-alibi@v1
         with:
           mode: warn
           comment: true
@@ -85,7 +85,7 @@ test_alibi:
 ```json
 {
   "tool": "test-alibi",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "base": "origin/main",
   "head": "HEAD",
   "mode": "warn",
@@ -127,7 +127,7 @@ Test Alibi found 1 finding.
 
 ## License
 
-Test Alibi is licensed under the Business Source License 1.1. Evaluation, development, testing, security review, and use in public open-source repositories are allowed. Commercial use, including private/internal CI use, managed services, resale, hosted services, or competing products, requires a paid commercial license from njlane314.
+Test Alibi is licensed under the Business Source License 1.1. Evaluation, development, testing, security review, and use in public open-source repositories are allowed. Commercial use, including private/internal CI use, managed services, resale, hosted services, or competing products, requires a paid commercial license from Eidetic Research.
 
 Each version converts to Apache-2.0 on the earlier of its configured Change Date or the fourth anniversary of that version's first public distribution. See [LICENSE](LICENSE).
 

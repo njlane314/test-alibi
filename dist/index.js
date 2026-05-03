@@ -50500,7 +50500,7 @@ function preprocess(fn, schema) {
 
 
 const TOOL_NAME = 'test-alibi';
-const VERSION = '0.1.2';
+const VERSION = '0.1.3';
 const DEFAULT_CONFIG_PATH = '.github/test-alibi.yml';
 const ConfigSchema = object({
     mode: schemas_enum(['warn', 'fail']).default('warn'),

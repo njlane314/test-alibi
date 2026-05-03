@@ -1,6 +1,6 @@
-name: PatchProof Test Alibi
+name: Eidetic Research Test Alibi
 description: "Check whether tests exercised changed lines."
-author: njlane314
+author: Eidetic Research
 branding:
   icon: shield
   color: blue
