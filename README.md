@@ -85,7 +85,7 @@ test_alibi:
 ```json
 {
   "tool": "test-alibi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "base": "origin/main",
   "head": "HEAD",
   "mode": "warn",
@@ -124,6 +124,12 @@ Test Alibi found 1 finding.
 - No source-code upload.
 - No external network calls except GitHub API calls for optional PR comments.
 - The hidden PR comment marker is `<!-- test-alibi-report -->`.
+
+## License
+
+Test Alibi is licensed under the Business Source License 1.1. Evaluation, development, testing, security review, and use in public open-source repositories are allowed. Commercial use, including private/internal CI use, managed services, resale, hosted services, or competing products, requires a paid commercial license from njlane314.
+
+Each version converts to Apache-2.0 on the earlier of its configured Change Date or the fourth anniversary of that version's first public distribution. See [LICENSE](LICENSE).
 
 ## Development
 

@@ -1,6 +1,6 @@
 import { z } from 'zod';
 export declare const TOOL_NAME = "test-alibi";
-export declare const VERSION = "0.1.0";
+export declare const VERSION = "0.1.1";
 export declare const DEFAULT_CONFIG_PATH = ".github/test-alibi.yml";
 export declare const ConfigSchema: z.ZodObject<{
     mode: z.ZodDefault<z.ZodEnum<{
