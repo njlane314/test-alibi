@@ -85,7 +85,7 @@ test_alibi:
 ```json
 {
   "tool": "test-alibi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "base": "origin/main",
   "head": "HEAD",
   "mode": "warn",
@@ -141,4 +141,4 @@ pnpm build
 pnpm build:action
 ```
 
-The action bundle is written to `dist/index.js` with `@vercel/ncc`.
+The action bundle is written to `dist/index.js` with `@vercel/ncc`. Marketplace publication notes are in [MARKETPLACE.md](MARKETPLACE.md).

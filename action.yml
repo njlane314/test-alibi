@@ -1,6 +1,9 @@
-name: Test Alibi
-description: "A diff-coverage tool that intersects changed executable lines with coverage data."
+name: PatchProof Test Alibi
+description: "Check whether tests exercised changed lines."
 author: njlane314
+branding:
+  icon: shield
+  color: blue
 inputs:
   base:
     description: "Base git ref. Defaults to the pull request base SHA/ref."
