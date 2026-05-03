@@ -1,4 +1,4 @@
-# Test Alibi
+# Attest
 
 Green CI is not evidence unless it exercised the changed lines.
 
@@ -22,7 +22,7 @@ pnpm test-alibi scan --base origin/main --head HEAD --format json
 Use `actions/checkout` with full history so git comparisons are available.
 
 ```yaml
-name: Test Alibi
+name: Attest
 
 on:
   pull_request:
@@ -45,7 +45,7 @@ jobs:
           node-version: 20
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - uses: Eidetic-Research/test-alibi@v1
+      - uses: Eidetic-Research/attest@v1
         with:
           mode: warn
           comment: true
