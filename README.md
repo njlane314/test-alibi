@@ -45,7 +45,7 @@ jobs:
           node-version: 20
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - uses: eideticresearch/test-alibi@v1
+      - uses: Eidetic-Research/test-alibi@v1
         with:
           mode: warn
           comment: true
